@@ -78,7 +78,7 @@ function initSubscribeForm () {
 
     xhr.addEventListener('load', () => {
       if (parseInt(xhr.status, 10) !== 200) {
-        window.location.href = 'https://supermedium/subscribe/';
+        window.location.href = 'https://supermedium.com/subscribe/';
       }
       if (button) {
         button.disabled = true;
